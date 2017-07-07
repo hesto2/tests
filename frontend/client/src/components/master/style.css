@@ -1,0 +1,27 @@
+.Master {
+    max-width: 35%;
+    min-height: 400px;
+    flex: 1;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    min-width: 80%;
+}
+
+thead,
+td {
+    padding: 10px;
+}
+
+thead {
+    background-color: #e8e8e8;
+}
+
+@media screen and (max-width: 767px) {
+    .Master {
+        max-width: 100%;
+        min-height: 0px;
+    }
+}

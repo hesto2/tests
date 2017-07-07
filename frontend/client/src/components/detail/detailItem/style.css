@@ -1,0 +1,15 @@
+.DetailItem label {
+    padding: 5px;
+    font-weight: bolder;
+    text-transform: capitalize;
+    display: block
+}
+
+.DetailItem .value {
+    background: #eaeaea;
+    padding: 10px 5px;
+    margin: 15px 5px;
+    margin-top: 2px;
+    min-height: 18px;
+    width:300px;
+}

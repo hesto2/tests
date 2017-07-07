@@ -1,0 +1,9 @@
+.Entity{
+    cursor:pointer;
+}
+.Entity:hover:not(.active){
+    background-color:#efefef;
+}
+.active{
+    background-color: #b5b5b5
+}
