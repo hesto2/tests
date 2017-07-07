@@ -34,9 +34,6 @@ module.exports = function (app) {
     jsonResponse
   );
 
-  app.get('*', function (req, res) {
-    res.sendFile(path.resolve(__dirname, 'public/index.html'));
-  });
 
   function findRepresentativesByState(req, res, next) {
     const url = `http://whoismyrepresentative.com/getall_reps_bystate.php?state=${req.params.state}&output=json`;
