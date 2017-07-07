@@ -5,7 +5,7 @@ import Detail from '../../components/detail';
 import axios from 'axios';
 import './style.css';
 
-const url = "http://localhost:3000/"
+const url = "/"
 
 class MainContainer extends Component {
   constructor() {
@@ -36,11 +36,13 @@ class MainContainer extends Component {
           repHandler={this.repHandler} />
         <div className={"viewContainer"}>
           <div className="masterDetail">
+
             <Master 
               data={this.state.data} 
               rep={this.state.rep} 
               handleSelect={this.handleSelect} 
               selected={this.state.selected}/>
+              
             <Detail 
               data={this.state.selected} 
               rep={this.state.rep}/>
