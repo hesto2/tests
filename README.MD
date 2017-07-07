@@ -2,6 +2,15 @@
 
 Preview link: [https://carter-hesterman.herokuapp.com/](https://carter-hesterman.herokuapp.com/)
 
+The root url takes you to the front end test. 
+
+To demo the backend requirements go to :
+- [https://carter-hesterman.herokuapp.com/characters?sort=height](https://carter-hesterman.herokuapp.com/characters?sort=height)
+
+- [https://carter-hesterman.herokuapp.com/character/luke](https://carter-hesterman.herokuapp.com/character/luke)
+
+- [https://carter-hesterman.herokuapp.com/planetresidents](https://carter-hesterman.herokuapp.com/planetresidents)
+
 ## Backend
 ### Running
 
