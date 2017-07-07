@@ -7,7 +7,7 @@ class Detail extends Component {
     let details;
     if(this.props.data){
       details = Object.keys(this.props.data).map((key, i)=>{
-        return <DetailItem key={i} label={key} value={this.props.data[key]}/>;
+        return <DetailItem key={i} label={key} value={this.props.data[key]} isLink={key=="link"}/>;
       });
 
     }
